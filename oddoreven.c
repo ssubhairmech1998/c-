@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-int a;
-scanf("%d",&a);
-if(a<=100000)
+int b;
+scanf("%d",&b);
+if(b<=100000)
 {
-if(a%2==0)
+if(b%2==0)
 {
 printf("even");
 }
-else if(a%2!=0)
+else if(b%2!=0)
 {
 printf("odd");
 }
